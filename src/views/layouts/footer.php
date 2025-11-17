@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">    
+ 
     <footer class="w-screen bg-white mt-auto">
       <div class="text-center">
         <h3 class="text-gray-500 italic text-sm py-4">

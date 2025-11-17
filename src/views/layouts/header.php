@@ -63,7 +63,7 @@
 
       <div class="navbar-end hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
-          <li><a>Inicio</a></li>
+          <li><a href="/public/index.php">Inicio</a></li>
           <li><a>Mensajes</a></li>
           <li><a href="/src/views/perfil.php">Perfil</a></li>
         </ul>

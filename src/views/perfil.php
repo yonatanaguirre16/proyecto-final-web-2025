@@ -1,5 +1,5 @@
-<?php 
-include '/src/views/layouts/header.php';
+<?php
+include __DIR__ . "/layouts/header.php";
 ?>
   <body class="bg-[#833ab4] min-h-screen flex items-center flex-col">
 
@@ -41,4 +41,6 @@ include '/src/views/layouts/header.php';
     </main>
 </body>
 
-<?php include '/src/views/layouts/footer.php'; ?>
+<?php 
+include __DIR__ .'/layouts/footer.php'; 
+?>
