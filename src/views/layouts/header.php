@@ -45,16 +45,16 @@
             tabindex="0"
             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#833ab4] rounded-box w-52"
           >
-            <li><a href="../public/index.html">Inicio</a></li>
+            <li><a href="/public/index.php">Inicio</a></li>
             <li><a>Mensajes</a></li>
-            <li><a href="../src/perfil.html">Perfil</a></li>
+            <li><a href="/src/views/perfil.php">Perfil</a></li>
           </ul>
         </div>
         <div
           class="w-[80px] h-[80px] flex items-center justify-center lg:ml-10"
         >
           <img
-            src="../files/logouabcsnet.png"
+            src="/public/assets/logouabcsnet.png"
             alt="logo"
             class="w-full h-full object-contain"
           />
@@ -65,7 +65,7 @@
         <ul class="menu menu-horizontal px-1">
           <li><a>Inicio</a></li>
           <li><a>Mensajes</a></li>
-          <li><a href="../src/perfil.html">Perfil</a></li>
+          <li><a href="/src/views/perfil.php">Perfil</a></li>
         </ul>
       </div>
 

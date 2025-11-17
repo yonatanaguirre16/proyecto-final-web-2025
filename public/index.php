@@ -3,54 +3,6 @@ include '../src/views/layouts/header.php';
 ?>
 
   <body class="bg-[#833ab4] min-h-screen flex items-center flex-col">
-    <nav class="navbar shadow-lg sticky bg-[#833ab4] text-white px-4">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </label>
-          <ul
-            tabindex="0"
-            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#833ab4] rounded-box w-52"
-          >
-            <li><a href="../public/index.html">Inicio</a></li>
-            <li><a>Mensajes</a></li>
-            <li><a href="../src/perfil.html">Perfil</a></li>
-          </ul>
-        </div>
-        <div
-          class="w-[80px] h-[80px] flex items-center justify-center lg:ml-10"
-        >
-          <img
-            src="../files/logouabcsnet.png"
-            alt="logo"
-            class="w-full h-full object-contain"
-          />
-        </div>
-      </div>
-
-      <div class="navbar-end hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
-          <li><a>Inicio</a></li>
-          <li><a>Mensajes</a></li>
-          <li><a href="../src/perfil.html">Perfil</a></li>
-        </ul>
-      </div>
-
-    </nav>
 
     <div class="flex flex-col items-center w-full max-w-2xl space-y-6">
       <div class="bg-white rounded-2xl w-full p-4 shadow-md mt-5">
@@ -128,6 +80,6 @@ include '../src/views/layouts/header.php';
           </button>
         </div>
       </div>
-  </body>
+  </body>   
 
 <?php include '../src/views/layouts/footer.php'; ?>
