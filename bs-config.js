@@ -1,6 +1,6 @@
 module.exports = {
-  proxy: "127.0.0.1:81", // Servidor de XAMPP en puerto 81
-  startPath: "/proyecto-final-web/public", // Ruta del proyecto
+  proxy: "127.0.0.1:80", // Servidor de XAMPP en puerto 81
+  startPath: "/public", // Ruta del proyecto
   files: [
     "./public/*.css", // CSS finales dentro de public
     "./public/js/*.js", // JS finales dentro de public
