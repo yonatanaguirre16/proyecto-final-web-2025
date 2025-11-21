@@ -1,0 +1,17 @@
+{
+    "name": "yonatan.deleon/proyecto-final-web",
+    "autoload": {
+        "psr-4": {
+            "YonatanDeleon\\ProyectoFinalWeb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yonatanaguirre16",
+            "email": "yaguirre_16@alu.uabcs.mx"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
